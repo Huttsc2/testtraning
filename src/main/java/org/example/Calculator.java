@@ -21,4 +21,9 @@ public class Calculator {
         }
         return 0;
     }
+    public int parseToInt(String s) {
+        int x;
+        x = Integer.parseInt(s);
+        return x;
+    }
 }

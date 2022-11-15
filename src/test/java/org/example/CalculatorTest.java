@@ -42,4 +42,9 @@ class CalculatorTest {
         calculator = new Calculator();
         assertEquals(0, calculator.startBracket("qwe"));
     }
+    @Test
+    void parseToIntTest() {
+        calculator = new Calculator();
+        assertEquals(3, calculator.parseToInt("3"));
+    }
 }
